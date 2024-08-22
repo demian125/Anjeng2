@@ -1,0 +1,18 @@
+debug: false
+uuid: 9955095c-31e8-4f9e-9440-51105951ed37
+token_id: KORzGebYDbcqQxB2
+token: rZ17mOtztsv8hmKSnIxeXqCGeuU6HDiuDSjUZRCeEnQj99filZn4ighBXZDsj9Gi
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/reptile-native-sawfish.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/reptile-native-sawfish.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://ominous-eureka-69r6pp5g64pghx6pp-80.app.github.dev'
